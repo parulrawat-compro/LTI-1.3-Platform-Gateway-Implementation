@@ -1,6 +1,6 @@
 {
     "app": {
-        "title": "LTI Seed App",
+        "title": "C1 Platform",
         "port":3000
     },
     "session":{
