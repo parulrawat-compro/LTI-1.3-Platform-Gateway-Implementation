@@ -4,7 +4,7 @@ module.exports = {
 
   sendPlatformtoGateway: (req, res) => {
 
-    const iss = 'http://localhost:3000';
+    const iss = 'https://lti-1-3-platform-poc.herokuapp.com/';
     const userId = 'user-000-000-001';
     const { resLinkId } = req.params;
 
@@ -16,7 +16,7 @@ module.exports = {
       userId,
       resLinkId,
       deploymentId,
-      iframeSrc: `http://parul:5000/gateway/initiate-login?iss=${iss}&userId=${userId}&resLinkId=${resLinkId}&deploymentId=${deploymentId}`
+      iframeSrc: `https://lti-1-3-gateway.herokuapp.com/gateway/initiate-login?iss=${iss}&userId=${userId}&resLinkId=${resLinkId}&deploymentId=${deploymentId}`
     });
   },
 
