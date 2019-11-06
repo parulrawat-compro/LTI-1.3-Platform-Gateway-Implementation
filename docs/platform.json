@@ -1,0 +1,32 @@
+
+  {
+    "iss": "http://localhost:3000",
+    "sample_contexts": {
+      "courses": [
+        {
+          "id": "course-000-000-001",
+          "label": "CPS 435",
+          "title": "CPS 435 Learning Analytics",
+          "resource_links": [
+            {
+              "title": "Introduction Assignment",
+              "description": "Assignment to introduce who you are",
+              "resource_link_id": "res-000-000-001",
+              "deployment_id": "a67sdfg"
+            }
+          ]
+        }
+      ],
+      "users": [
+        {
+          "id": "user-000-000-001",
+          "name": "Ms Jane Marie Doe",
+          "given_name": "Jane",
+          "family_name": "Doe",
+          "middle_name": "Marie",
+          "picture": "http://picture.com/user.jpg",
+          "email": "user@example.com"
+        }
+      ]
+    }
+  }
